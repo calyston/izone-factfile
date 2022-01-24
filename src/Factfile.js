@@ -43,11 +43,11 @@ const Factfile = () => {
       <div className="factfile-info">
         <img src={img} alt={name} />
         <div className="factfile-text">
-          <p>Full Name: {name}</p>
-          <p>Birth Date: {birthdate}</p>
-          <p>Nationality: {nationality}</p>
-          <p>Star Sign: {zodiac}</p>
-          <p>Official Colour: {colour}</p>
+          <p><span>Full Name:</span> {name}</p>
+          <p><span>Birth Date:</span> {birthdate}</p>
+          <p><span>Nationality:</span> {nationality}</p>
+          <p><span>Star Sign:</span> {zodiac}</p>
+          <p><span>Official Colour:</span> {colour}</p>
         </div>
         <div className="button-container">
           <button className="left" onClick={lastMember}><FaChevronLeft /></button>
@@ -55,7 +55,6 @@ const Factfile = () => {
           <button className="right" onClick={nextMember}><FaChevronRight /></button>
         </div>
       </div>
-
     </article>
   )
 }

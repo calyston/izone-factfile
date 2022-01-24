@@ -153,20 +153,6 @@ button:hover {
   background-color: gainsboro;
 }
 
-/* Forms */
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-input, textarea {
-  border: 1px solid #FF64A1;
-  padding: 0.5rem 1rem;
-  max-width: 400px;
-  margin: 0.5rem 0;
-}
-
 #logo {
   width: 30rem;
   height: auto;
@@ -175,11 +161,6 @@ input, textarea {
 #title {
   color: #FF64A1;
 }
-
-/* .factfile {
-  width: 50%;
-  margin: 3rem auto;
-} */
 
 .factfile img {
   width: 30rem;
@@ -196,6 +177,10 @@ input, textarea {
   margin-top: 1.6rem;
   text-align: left;
   width: 30rem;
+}
+
+.factfile-text span {
+  font-weight: bold;
 }
 
 .button-container {

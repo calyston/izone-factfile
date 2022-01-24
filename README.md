@@ -8,7 +8,7 @@ Fact file for IZ*ONE members made with React.
 
 ## Key Features
 
-
+- Buttons to scroll and randomise members
 
 ## Technologies Used
 React, CSS.
