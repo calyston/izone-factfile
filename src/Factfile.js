@@ -6,17 +6,27 @@ const Factfile = () => {
   const [index, setIndex] = useState(0);
   const { name, birthdate, nationality, zodiac, colour, img } = members[index];
 
+  const checkNumber = (number) => {
+    if (number > members.length - 1) {
+      return 0;
+    }
+    if (number < 0) {
+      return members.length - 1;
+    }
+    return number;
+  }
+
   const nextMember = () => {
     setIndex((index) => {
       let newIndex = index + 1;
-      return newIndex;
+      return checkNumber(newIndex);
     })
   };
 
   const lastMember = () => {
     setIndex((index) => {
       let newIndex = index - 1;
-      return newIndex;
+      return checkNumber(newIndex);
     })
   }
 
