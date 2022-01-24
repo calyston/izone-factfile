@@ -1,3 +1,21 @@
+# IZ*ONE Fact File
+
+Fact file for IZ*ONE members made with React.
+
+### Live Preview: 
+
+
+
+## Key Features
+
+
+
+## Technologies Used
+React, CSS.
+
+#### Written by Christine Lyston
+#### Date: January 2021
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
