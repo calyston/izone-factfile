@@ -1,10 +1,10 @@
 # IZ*ONE Fact File
 
-Fact file for IZ*ONE members made with React.
+A fact file for IZ*ONE members made with React.
 
 ### Live Preview: 
 
-
+https://calyston-izonefactfile.netlify.app/
 
 ## Key Features
 
