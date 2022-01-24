@@ -5,6 +5,21 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 const Factfile = () => {
   const [index, setIndex] = useState(0);
   const { name, birthdate, nationality, zodiac, colour, img } = members[index];
+
+  const nextMember = () => {
+    setIndex((index) => {
+      let newIndex = index + 1;
+      return newIndex;
+    })
+  };
+
+  const lastMember = () => {
+    setIndex((index) => {
+      let newIndex = index - 1;
+      return newIndex;
+    })
+  }
+
   return (
     <article className="factfile">
       <div className="factfile-info">
@@ -17,9 +32,9 @@ const Factfile = () => {
           <p>Official Colour: {colour}</p>
         </div>
         <div className="button-container">
-          <button className="left"><FaChevronLeft /></button>
+          <button className="left" onClick={lastMember}><FaChevronLeft /></button>
           <button className="random">Random</button>
-          <button className="right"><FaChevronRight /></button>
+          <button className="right" onClick={nextMember}><FaChevronRight /></button>
         </div>
       </div>
 
