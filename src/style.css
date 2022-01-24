@@ -101,14 +101,14 @@ li {
 
 .page-container {
   width: 90%;
-  margin: auto;
+  margin: 3rem auto;
+  text-align: center;
 }
 
 /* Tablet & Laptop View */
 @media (min-width: 768px) {
   .page-container {
     width: 80%;
-    margin: auto;
   }
 }
 
@@ -116,7 +116,6 @@ li {
 @media (min-width: 1200px) {
   .page-container {
     max-width: 1200px;
-    margin: auto;
   }
 }
 
@@ -127,14 +126,14 @@ article {
 
 a {
   text-decoration: none;
-  color: blue;
+  color: #FF64A1;
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
 
 a:hover {
   text-decoration: none;
-  color: lightskyblue;
+  color: gainsboro;
 }
 
 /* Buttons */
@@ -145,13 +144,13 @@ button {
   border-radius: 0;
   margin: 1rem 0;
   width: fit-content;
-  background-color: gainsboro;
+  background-color: #FF64A1;
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: lightskyblue;
+  background-color: gainsboro;
 }
 
 /* Forms */
@@ -162,8 +161,46 @@ form {
 }
 
 input, textarea {
-  border: 1px solid lightgrey;
+  border: 1px solid #FF64A1;
   padding: 0.5rem 1rem;
   max-width: 400px;
   margin: 0.5rem 0;
+}
+
+#logo {
+  width: 33%;
+  height: auto;
+}
+
+#title {
+  color: #FF64A1;
+}
+
+/* .factfile {
+  width: 50%;
+  margin: 3rem auto;
+} */
+
+.factfile img {
+  width: 30rem;
+  height: auto;
+}
+
+.factfile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.factfile-text {
+  margin-top: 1.6rem;
+  text-align: left;
+  width: 30rem;
+}
+
+.button-container {
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem;
 }

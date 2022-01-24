@@ -5,7 +5,8 @@ const factfiles = [
     birthdate: '27th September 1995',
     nationality: 'Korean',
     zodiac: 'Libra',
-    color: 'Purple',
+    colour: 'Purple',
+    img: './images/eunbi.webp',
   },
   {
     id: 2,
@@ -13,7 +14,8 @@ const factfiles = [
     birthdate: '19th March 1998',
     nationality: 'Japanese',
     zodiac: 'Pisces',
-    color: 'Pastel Pink',
+    colour: 'Pastel Pink',
+    img: './images/sakura.webp',
   },
   {
     id: 3,
@@ -21,7 +23,8 @@ const factfiles = [
     birthdate: '5th July 1999',
     nationality: 'Korean',
     zodiac: 'Cancer',
-    color: 'Coral',
+    colour: 'Coral',
+    img: './images/hyewon.webp',
   },
   {
     id: 4,
@@ -29,7 +32,8 @@ const factfiles = [
     birthdate: '29th September 1999',
     nationality: 'Korean',
     zodiac: 'Libra',
-    color: 'Yellow',
+    colour: 'Yellow',
+    img: './images/yena.webp',
   },
   {
     id: 5,
@@ -37,7 +41,8 @@ const factfiles = [
     birthdate: '11th January 2000',
     nationality: 'Korean',
     zodiac: 'Capricorn',
-    color: 'Blue Mint',
+    colour: 'Blue Mint',
+    img: './images/chaeyeon.webp',
   },
   {
     id: 6,
@@ -45,7 +50,8 @@ const factfiles = [
     birthdate: '1st August 2000',
     nationality: 'Korean',
     zodiac: 'Leo',
-    color: 'Mint',
+    colour: 'Mint',
+    img: './images/chaewon.webp',
   },
   {
     id: 7,
@@ -53,7 +59,8 @@ const factfiles = [
     birthdate: '5th February 2001',
     nationality: 'Korean',
     zodiac: 'Aquarius',
-    color: 'White',
+    colour: 'White',
+    img: './images/minju.webp',
   },
   {
     id: 8,
@@ -61,7 +68,8 @@ const factfiles = [
     birthdate: '18th June 2001',
     nationality: 'Japanese',
     zodiac: 'Gemini',
-    color: 'Sky Blue',
+    colour: 'Sky Blue',
+    img: './images/nako.webp',
   },
   {
     id: 9,
@@ -69,7 +77,8 @@ const factfiles = [
     birthdate: '6th October 2001',
     nationality: 'Japanese',
     zodiac: 'Libra',
-    color: 'Peach',
+    colour: 'Peach',
+    img: './images/hitomi.webp',
   },
   {
     id: 10,
@@ -77,7 +86,8 @@ const factfiles = [
     birthdate: '22nd October 2001',
     nationality: 'Korean',
     zodiac: 'Libra',
-    color: 'Orange',
+    colour: 'Orange',
+    img: './images/yuri.webp',
   },
   {
     id: 11,
@@ -85,7 +95,8 @@ const factfiles = [
     birthdate: '1st September 2003',
     nationality: 'Korean',
     zodiac: 'Virgo',
-    color: 'Blue',
+    colour: 'Blue',
+    img: './images/yujin.webp',
   },
   {
     id: 12,
@@ -93,7 +104,8 @@ const factfiles = [
     birthdate: '31st August 2004',
     nationality: 'Korean',
     zodiac: 'Virgo',
-    color: 'Pink',
+    colour: 'Pink',
+    img: './images/wonyoung.webp',
   },
 ]
 

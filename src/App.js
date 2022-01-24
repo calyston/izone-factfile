@@ -1,11 +1,14 @@
+import React from 'react';
+import Factfile from './Factfile';
 import logo from './izone-logo.png';
-import './App.css';
+import './style.css';
 
 function App() {
   return (
     <div className="page-container">
-      <img src={logo} alt="izone-logo" />
-      <h2>IZ*ONE Fact File</h2>
+      <img id="logo" src={logo} alt="izone-logo" />
+      <h2 id="title">IZ*ONE Fact File</h2>
+      <Factfile />
     </div>
   );
 }
