@@ -30,6 +30,14 @@ const Factfile = () => {
     })
   }
 
+  const randomMember = () => {
+    let randomIndex = Math.floor(Math.random() * members.length);
+    if (randomIndex === index) {
+      randomIndex = index + 1;
+    }
+    setIndex(checkNumber(randomIndex));
+  }
+
   return (
     <article className="factfile">
       <div className="factfile-info">
@@ -43,7 +51,7 @@ const Factfile = () => {
         </div>
         <div className="button-container">
           <button className="left" onClick={lastMember}><FaChevronLeft /></button>
-          <button className="random">Random</button>
+          <button className="random" onClick={randomMember}>Random</button>
           <button className="right" onClick={nextMember}><FaChevronRight /></button>
         </div>
       </div>
